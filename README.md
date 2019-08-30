@@ -33,6 +33,8 @@ Go to [chrome://extensions/](chrome://extensions/) and activate the **developer 
 <br>
 Then click on `Load unpacked extension...` button and navigate to *~/build-ext* folder in your filesystem.
 <br>
+Go to some webpage and open the devtools (or pressing F12), then click on the **>>** button to see more options and at last you would see the Recxtension option, click it and ta-da! 🎉
+<br>
 <br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and also with Webpack 📦🧊 and gulp 🥤
 
