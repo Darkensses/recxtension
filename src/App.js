@@ -10,7 +10,7 @@ function App() {
         <p>The React swag 😎 works like a charm 🔥</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Darkensses/recxtension"
           target="_blank"
           rel="noopener noreferrer"
         >
