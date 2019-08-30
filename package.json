@@ -1,13 +1,22 @@
 {
   "name": "recxtension",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkensses/recxtension.git"
+  },
+  "author": "Jasiel Guillen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkensses/recxtension/issues"
+  },
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "build-ext": "./node_modules/.bin/gulp build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,5 +36,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-rm": "^2.0.0",
+    "postcss": "^7.0.17",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.0.0",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.39.3",
+    "webpack-stream": "^5.2.1"
   }
 }

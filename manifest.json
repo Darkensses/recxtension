@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "Recxtension",
+  "description": "React extension for Google Chrome browser",
+  "version": "1.0",
+  "permissions": ["*://*/*"],
+  "devtools_page": "devtools.html"
+}
